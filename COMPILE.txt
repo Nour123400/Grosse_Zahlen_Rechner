@@ -1,0 +1,2 @@
+clang ++ main.cpp Zahl.cpp -o Zahlentest
+./Zahlentest
