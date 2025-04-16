@@ -14,7 +14,7 @@
 int main()
 {
     //intialisierung und Zuweisung von dem Datei
-    std::ifstream datei("Rechenvorschriften");
+    std::ifstream datei("TEST.txt");
     
 
     if (datei.is_open())
@@ -120,7 +120,7 @@ int main()
  
     else
     {
-        std::cout << "Kein Zugriff auf dem datei Rechenvorschriften\nBitte beachten Sie, dass die Datei Rechenvorschriften keine Eundung hat!\n";
+        std::cout << "Kein Zugriff auf dem datei TEST\nBitte beachten Sie, dass die Datei Rechenvorschriften keine Eundung hat!\n";
     }
 
     return 0;
